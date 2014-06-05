@@ -1,0 +1,5 @@
+target
+sbt
+sbt-launch.jar
+.idea
+*.iml
