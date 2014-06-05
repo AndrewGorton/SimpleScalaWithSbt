@@ -1,9 +1,14 @@
 SimpleScalaWithSbt
 ==================
 
-Get SBT via `get_sbt.sh`.
+# Description
 
-Compile and package with `./sbt package`
+Displays Hello World on stdout.
 
-Run with `java -jar target/scala-2.10/SimpleScala-assembly-1.0.jar`
+# Building the application
+* `./get_sbt.sh` to get SBT downloaded and set up
+* `./sbt clean assembly` to produce a single executable fatjar
+
+# Running
+`java -jar target/scala-2.10/SimpleScala-assembly-1.0.0.jar`
 
